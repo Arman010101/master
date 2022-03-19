@@ -1,0 +1,758 @@
+* {box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.clear {
+  clear: both;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+
+}
+
+/* Header */
+
+#header { 
+  width: 100%;
+  height: 100px;
+  background-color: rgb(26, 13, 13);
+
+}
+
+
+.logo-part{
+width: 25%;
+float: left;
+padding-top: 15px;
+
+}
+
+.logo-part img{
+  width: 70px ;
+  height: 70px;
+}
+
+.logo-part img:hover{
+  color: tomato;
+  background-image: url(../img/showcase.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.menu-part{
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+
+  
+}
+
+
+.menu-part a {
+  text-decoration: none;
+  margin: 20px 5px;
+  color: rgb(253, 255, 255);
+  font-size: 20px;
+  margin-right: 15px;
+  padding-bottom: 90px;
+}
+
+.menu-part a:hover{
+  color: tomato;
+  background-image: url(../img/showcase.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+} 
+
+
+.search-part {
+  width: 25%;
+  float: left;
+  text-align:end;
+  padding-top: 35px;
+}
+
+.search-part i {
+font-size: 25px;
+color:rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border: none;
+height: 60px;
+width: 60px;
+}
+
+.search-part i:hover {
+background-image: url(../img/showcase.gif);
+background: cover no-repeat;
+color: tomato ;
+}
+
+
+/* showcase */
+
+#showcase{
+width: 100%;
+height: 700px;
+float: left;
+background-image: url(../img/showcase.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+
+.showcase-writing-part h1{
+color: aliceblue;
+font-size: 80px;
+margin-top: 80px;
+}
+
+
+.showcase-writing-part p{
+text-align:justify ;
+color: aliceblue;
+width: 60%;
+
+}
+
+.showcase-writing-part button {
+background-color: rgb(255, 255, 255);
+padding: 5px 5px;
+border-radius: 8px;
+margin-top: 10px;
+font-size: 20px;
+}
+
+.showcase-writing-part button:hover{
+color: rgb(250, 247, 247);
+background-color: rgb(255, 38, 0);
+text-shadow: 0 0 88px #ff0d7e;
+transition: 0.3s;
+
+}
+
+/*  Music Album */
+
+#music-library{
+height: 630px;
+background-color: rgb(10, 2, 1);
+background-image: url(../img/show1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.Music-Laibrary{
+  text-align: center;
+  padding-top: 30px;
+  
+  }
+
+#music-library img{
+  padding: 20px;
+}
+  
+#music-library img:hover{
+  background-color: aqua;
+}
+
+
+.Music-Laibrary h2 {
+font-size: 35px;
+font-style: oblique;
+color: rgb(13, 224, 207);
+text-shadow: 0 0 18px #00d9ff;
+background-color: rgb(0, 0, 0);
+display: inline-block;
+padding: 10px;
+border: none;
+border-radius: 15px;
+
+
+}
+
+.Music-Laibrary p {
+font-size: 20px;
+margin-top: 20px;
+width: 50%;
+position: relative;
+left: 25%;
+margin-bottom: 20px;
+color: rgb(255, 248, 248);
+text-shadow: 0 0 18px #00d9ff;
+
+
+}
+
+.img-1{
+width: 20%;
+float: left;
+margin-right: 25px;
+text-align: center;
+background-color: black;
+margin-left: 9%;
+
+}
+
+.img-1 h2{
+text-align: center;
+padding: 10px;
+color: aqua;
+background-color: rgb(48, 43, 43);
+text-shadow: 0 0 18px #00d9ff;
+
+
+}
+
+.img-1 p{
+  text-align: center;
+  padding: 10px;
+  color: aqua;
+  background-color: rgb(70, 68, 68);
+
+}
+
+/* Pricing */
+
+#Pricing{
+  height: 730px;
+  background-color: rgb(196, 96, 96);
+  background-image: url(../img/pricemain.jpg);
+  background-size: cover;
+      
+  }
+
+  .pricing-textpart {
+    text-align: center;
+    padding-top: 30px;
+  
+  }
+  
+  .pricing-textpart h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 9, 153);
+    display: inline-block;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+
+  .pricing-textpart p{
+    font-size: 30px;
+    margin-top: 10px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-bottom: 20px;
+    color: rgb(255, 245, 245);
+    text-shadow: 0 0 10px #ff1a1a;
+  padding: 15px;
+    border: none;
+    border-radius: 15px;
+  }
+
+  .price-img-1{
+    width: 20%;
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: rgb(2, 1, 1);
+    margin-left: 9%;
+    
+    }
+
+    .price-img-1 img{
+      height: 250px;
+      width: 250px;
+      padding: 20px;
+      background-color: rgb(0, 0, 0);
+
+    }
+
+    .price-img-1 img:hover{
+      background-color: aqua;
+    }
+  
+    
+    .price-img-1 h2{
+    text-align: center;
+    padding: 10px;
+    color: rgb(172, 255, 17);
+    background-color: rgb(76, 97, 83);
+    
+    }
+
+    .price-img-1 button{
+      padding: 5px 25px;
+      border: none;
+      border-radius: 9px;
+      font-size: 20px;
+      background-color: rgb(75, 255, 30);
+      margin: 10px;
+    }
+/* collection */
+    #collection {
+      
+
+    }
+
+    .img-c1 {
+      background-image: url(../img/bestalbum.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 50%;
+      height: 500px;
+      float: left;  
+
+
+    }
+
+    .textpart-c1 {
+      width: 50%;
+      float: left; 
+      background-color: rgb(255, 124, 17); 
+      background-image: url(../img/upcomingalbum.jpg);
+        height: 500px;
+
+    }
+
+    .textpart-c1 h2 {
+      font-size: 45px;
+      margin-top: 15px;
+      color: rgb(10, 4, 4);
+      text-shadow: 0 0 10px #ff1a1a;
+
+
+    }
+
+    .textpart-c1 p {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: rgb(255, 245, 245);
+      text-shadow: 0 0 10px #ff1a1a;
+
+
+    }
+
+    .textpart-c1 button {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 9px;
+      font-size: 15px;
+      background-color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 8px red;;      
+      color: orangered;
+
+    }
+
+    .textpart-c1 button:hover{
+      color: rgb(255, 255, 255);
+      background-color: #e94411;
+      text-shadow: 2px 2px 8px rgb(10, 4, 4);
+
+    }
+
+
+    /* collection2 */
+
+    #collection2 {
+
+    }
+
+    .textpart-c2 {
+      width: 50%;
+      float: left;  
+      background-color: rgb(255, 124, 17); 
+      background-image: url(../img/upcomingalbum.jpg);
+      
+      height: 500px;
+    }
+
+    .textpart-c2 h2 {
+      font-size: 45px;
+      margin-top: 15px;
+      color: rgb(10, 4, 4);
+      text-shadow: 0 0 10px #ff1a1a;
+
+
+    }
+
+    .textpart-c2 p {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      color: rgb(255, 245, 245);
+      text-shadow: 0 0 10px #ff1a1a;
+
+
+    }
+
+    .textpart-c2 button {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 9px;
+      font-size: 15px;
+      background-color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 8px red;;      
+      color: orangered;
+
+    }
+
+    .textpart-c2 button:hover{
+      color: rgb(255, 255, 255);
+      background-color: #e94411;
+      text-shadow: 2px 2px 8px rgb(10, 4, 4);
+
+    }
+
+    .img-c2 {
+      background-image: url(../img/upcomong.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 50%;
+      height: 500px;
+      float: left;  
+    }
+/* statis */
+
+#statis {
+  text-align: center;
+  background-image: url(../img/pricenew.jpg);
+  height: 700px;
+  background-color: chocolate;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+    #statis h2 {
+      font-size: 70px;
+      color: rgb(0, 0, 0);
+      text-shadow: 0 0 13px #ff0909, 0 0 15px #ff4800;
+    }
+
+    #statis p {
+      color: rgb(0, 0, 0);
+      text-shadow: 0 0 13px #ff1b1b, 0 0 55px #ff0404;
+    }
+
+    .statis-textpart {
+
+    }
+
+    .statis-textpart h2{
+      padding-top: 100px;
+      font-size: 50px;
+      
+    }
+
+    .statis-textpart p{
+      padding: 30px;
+      font-size: 25px;
+
+    }
+
+    .club {
+      float: left;
+      width: 33%;
+      margin-top: 260px;
+          
+    }
+    .active-member {
+      float: left;
+      width: 33%;
+      margin-top: 260px;
+
+    }
+    .community {
+      float: left;
+      width: 33%;
+      margin-top: 260px;
+
+
+    }
+
+    .size{
+      font-size: 35px;
+    }
+
+/* about part */
+    #about {
+    height: 690px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(127, 237, 100);
+    background-image: url(../img/subscribe.jpg);
+    background-size: cover;
+    position: relative;
+    }
+
+    .about-textpart {
+      text-align: right ;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-10%, -50%);
+    }
+
+    .about-textpart p {
+      font-size: 40px;
+      padding-bottom: 20px;
+      padding-top: 50px;
+      color: rgb(240, 25, 25);
+  text-shadow: 1px 1px 2px rgb(182, 27, 27), 0 0 25px rgb(10, 10, 180), 0 0 5px rgb(214, 214, 218);
+
+    }
+
+    .about-textpart h2 {
+      font-size: 75px;
+      color: rgb(0, 0, 0);
+      text-shadow: 0 0 13px #FF0000, 0 0 15px #0000FF;
+    }
+
+/* subscribe */
+  
+#subscribe {
+height: 800px;
+color: rgb(255, 255, 255);
+background-color: darkgray;
+background-image: url(../img/upcomingalbum.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+
+}
+
+.subscribe-textpart {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.subscribe-textpart h2{
+font-size: 70px;
+padding-bottom: 15px;
+display: inline-block;
+text-shadow: 0px 0px 20px rgb(10, 4, 4);
+} 
+
+.subscribe-textpart p{
+  font-size: 30px;
+  margin-bottom: 55px;
+  
+} 
+
+.subscribe-textpart input[type="email"] {
+width: 350px;
+padding: 10px;
+border: none;
+background-color: #000000;
+color: white;
+text-shadow: 2px 2px 8px rgb(255, 255, 255);
+
+} 
+
+.subscribe-textpart input[type="email"]:hover{
+  color: rgb(255, 255, 255);
+  background-color: white;
+
+}
+
+.subscribe-textpart input[type="submit"] {
+width: 100px;
+font-size: 15px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+} 
+
+.subscribe-textpart input[type="submit"]:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 90, 25);
+}
+
+/* details */
+
+#details {
+  height: 500px;
+  color: aliceblue;
+  background: linear-gradient(rgb(255, 80, 10), black, rgb(8, 8, 100));
+  
+}
+
+.details-Musicology {
+float: left;
+width: 50%;
+}
+
+.details-Musicology h2 {
+  font-size: 70px;
+  padding-top: 20px;
+  color: white;
+}
+
+.details-Musicology h2:hover{
+  width: 55%;
+  background-color: rgb(255, 80, 10);
+  text-shadow: 2px 2px 8px rgb(10, 4, 4);
+  display: inline-block;
+}
+
+.details-Musicology p {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.details-Musicology a {
+  color: aliceblue;
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 15px;  
+}
+
+.details-Musicology a:hover {
+  color: rgb(10, 226, 255);
+}
+
+
+.details-Musicology2 {
+  float: left;
+  width: 50%;
+  
+}
+
+.About {
+  float: left;
+  width: 33%;
+  padding-top: 30px;
+}
+
+.About h2{
+  font-size: 40px;
+  
+
+}
+
+
+.About a{
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color: aliceblue;
+  font-size: 20px;
+}
+.About a:hover {
+  color: rgb(16, 239, 255);}
+
+
+.services {
+  float: left;
+  width: 33%;
+  padding-top: 30px;
+
+}
+
+.services h2{
+  font-size: 40px;
+
+}
+.services a{
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color: aliceblue;
+  font-size: 20px;
+
+}
+
+.services a:hover{
+  color: rgb(16, 255, 16);
+}
+
+
+
+ 
+.other{
+  float: left;
+  width: 33%;
+  padding-top: 30px;
+
+}
+
+.other h2{
+  font-size: 40px;
+
+}
+.other a{
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color: aliceblue;
+  font-size: 20px;
+
+}
+
+.other a:hover{
+  color: rgb(240, 255, 25);
+
+}
+
+
+/* footer */
+#footer {
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(238, 237, 237);
+  padding: 50px;
+}
+
+#footer strong {
+  color: #ff6803;
+  text-shadow: 0 0 13px #FF0000, 0 0 15px #0000FF;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+  
+  
